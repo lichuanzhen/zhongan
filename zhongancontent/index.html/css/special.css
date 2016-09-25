@@ -1,0 +1,6 @@
+
+/*针对左侧 显示隐藏*/
+.category .category-list {display:none;}
+.category:hover .category-list{display:block;}
+/*大图*/
+.back{height:320px;background:url(../images/special_ban.jpg) no-repeat 0 0 ;position:relative;z-index:-1;}

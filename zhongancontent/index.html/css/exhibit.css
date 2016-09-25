@@ -1,0 +1,302 @@
+
+.characteristic{
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+.characteristic .title{
+    margin-bottom: 16px;
+}
+.characteristic .title a{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+}
+.characteristic .content_left,.content_Centre,.content_Right{
+    border: 1px solid #d8d8d8;
+    height: 242px;
+    width: 400px;
+    padding: 32px 20px 30px 20px;
+    margin-left: -1px;
+    position: relative;
+}
+
+.characteristic .content_left .title,.content_Centre .title,.content_Right .title{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+.characteristic .content_left .title a,.content_Centre .title a,.content_Right .title a{
+    font-size: 14px;
+    color: #40c16b;
+    position: absolute;
+    top:0;
+    right: 0;
+    display: none;
+}
+.characteristic .content_left .content_text,.content_Centre .content_text,.content_Right .content_text{
+    font-size: 14px;
+    color: #83969f;
+    line-height: 20px;
+}
+.characteristic .content_left .text_hover,.characteristic .content_Centre .text_hover,.characteristic .content_Right .text_hover{
+        display: none;
+}
+.characteristic .content_left:hover .text_hover,.characteristic .content_Centre:hover .text_hover,.characteristic .content_Right:hover .text_hover{
+    display: block;
+}
+
+
+.characteristic .content_left:hover .text, .characteristic  .content_Centre:hover .text, .characteristic .content_Right:hover .text{
+    display: none;
+}
+.characteristic .content_left:hover  .content_text .text_hover .sq , .characteristic .content_Centre:hover   .content_text  .text_hover .sq ,.characteristic .content_Right:hover  .content_text .text_hover .sq {
+    font-size: 14px;
+    height: 14px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.characteristic .content_left:hover  .content_text .text_hover .sq i,.characteristic .content_Centre:hover   .content_text .text_hover .sq i,.characteristic .content_Right:hover  .content_text .text_hover .sq i{
+    color: #40C16B;
+    font-size: 50px;
+    position: relative;
+    top: -18px;
+}
+.characteristic .content_left .content_text .pre,.characteristic .content_Centre .content_text .pre,.characteristic .content_Right .content_text .pre{
+    color: #40c16b;
+    font-weight: bold;
+
+}
+.characteristic .content_left{
+    background: url("../images/pro9.png")no-repeat 100% 50%;
+}
+.characteristic .content_left:hover{
+    background: url("../images/pro9_h.png")no-repeat 100% 50%;
+}
+.characteristic .content_Centre{
+    background: url("../images/cx_bg1.png")no-repeat 100% 50%;
+}
+
+.characteristic .content_Right{
+    background: url("../images/tee.png")no-repeat 100% 50%;
+}
+.characteristic .content_Right:hover {
+    background: url("../images/teehover.png")no-repeat 100% 50%;
+}
+
+
+.characteristic .price{
+    position: absolute;
+    bottom:30px;
+}
+.characteristic .price span{
+    font-size: 24px;
+    color: #40c16b;
+    display: inline-block;
+}
+.characteristic .price b{
+    font-size: 14px;
+    color: #40c16b;
+}
+.characteristic .content_left:hover   .price span, .characteristic .content_Centre:hover  .price span, .characteristic .content_Right:hover  .price span{
+    font-weight: bold;
+}
+.characteristic .content_left   .price a,.characteristic .content_Centre     .price a,.characteristic .content_Right     .price a{
+        display: none;
+ }
+
+.characteristic .content_left:hover   .price a,.characteristic .content_Centre:hover    .price a,.characteristic .content_Right:hover    .price a{
+    display: inline-block;
+    position: absolute;
+    width: 136px;
+    height: 46px;
+    background-color: #40c16b;
+    color: white;
+    border-radius: 25px;
+    line-height: 46px;
+    text-align: center;
+    top: 0;
+    right: -270px;
+    font-weight: bold;
+}
+.characteristic .content_left:hover  .title a,.characteristic .content_Centre:hover  .title ,.characteristic .content_Right:hover .title a{
+    display: block;
+}
+
+.characteristic .content_left:hover,.characteristic .content_Centre:hover,.characteristic .content_Right:hover{
+    border: 2px solid #40c16b;
+    /*margin: -1px -1px -1px 0px;*/
+}
+
+
+/*交通出行start*/
+
+.traffic  .content_left{
+    background: url("../images/pro1.png")no-repeat 100% 50%;
+}
+.traffic  .content_left:hover{
+    background: url("../images/pro1_h.png");
+}
+
+.traffic  .content_Centre{
+    background: url("../images/pro2.png")no-repeat 100% 50%;
+}
+.traffic  .content_Centre:hover{
+    background: url("../images/pro2_h.png");
+}
+
+.traffic  .content_Right{
+    background: url("../images/pro3.png")no-repeat 100% 50%;
+}
+.traffic  .content_Right:hover{
+    background: url("../images/pro3_h.png");
+}
+
+/*交通出行end*/
+
+
+
+/*家庭健康start*/
+
+.healthy  .content_left{
+    background: url("../images/pro4.png")no-repeat 100% 50%;
+}
+.healthy  .content_left:hover{
+    background: url("../images/pro4_h.png");
+}
+
+.healthy  .content_Centre{
+    background: url("../images/pro5.png")no-repeat 100% 50%;
+}
+.healthy  .content_Centre:hover{
+    background: url("../images/pro5_h.png");
+}
+
+.healthy  .content_Right{
+    background: url("../images/pro6.png")no-repeat 100% 50%;
+}
+.healthy  .content_Right:hover{
+    background: url("../images/pro6_h.png");
+}
+
+/*家庭健康end*/
+
+
+/*快乐出游start*/
+.tour  .content_Right{
+    width: 800px;
+}
+
+.tour  .content_left{
+    background: url("../images/pro7.png")no-repeat 100% 50%;
+}
+.tour  .content_left:hover{
+    background: url("../images/pro7_h.png");
+}
+.tour  .content_Right{
+    background: url("../images/pro8.png")no-repeat 100% 50%;
+}
+.tour  .content_Right:hover{
+    background: url("../images/pro8_h.png");
+}
+
+.tour .content_Right:hover    .price a{
+    right: -685px;
+}
+/*快乐出游end*/
+
+
+/*售后理赔start*/
+.service{
+    width: 1200px;
+    height: 149px;
+    background-color: #f7f9fb;
+    margin: 35px 0 0 0;
+    overflow: hidden;
+}
+.service ul {
+    margin-top: 45px;
+    margin-left: 100px;
+}
+.service ul li a{
+    display: block;
+    width: 170px;
+    height: 59px;
+    margin-right: 100px;
+}
+.service ul li:nth-child(1)  a{
+    background: url("../images/btn_claim.png")no-repeat;
+}
+.service ul li:nth-child(2)  a{
+    background: url("../images/btn_policysea.png")no-repeat;
+}
+.service ul li:nth-child(3)  a{
+    background: url("../images/btn_policyver.png")no-repeat;
+}
+.service ul li:nth-child(4)  a{
+    background: url("../images/btn_datadown.png")no-repeat;
+}
+
+.service ul li:nth-child(1):hover  a{
+    background: url("../images/btn_claim_h.png")no-repeat;
+}
+.service ul li:nth-child(2):hover  a{
+    background: url("../images/btn_policysea_h.png")no-repeat;
+}
+.service ul li:nth-child(3):hover  a{
+    background: url("../images/btn_policyver_h.png")no-repeat;
+}
+.service ul li:nth-child(4):hover  a{
+    background: url("../images/btn_datadown_h.png")no-repeat;
+}
+/*售后理赔end*/
+
+
+/*特色服务start*/
+.characteristicService{
+    margin-top: 30px;
+}
+.characteristicService dt{
+    color: #5e6368;
+    font-size: 24px;
+}
+.characteristicService dd{
+    width: 100%;
+}
+.characteristicService dd a{
+    display: inline-block;
+    width: 196px;
+    height: 50px;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.characteristicService dd a:nth-child(1){
+    background: url("../images/feature1_h.png")no-repeat;
+}
+/*.characteristicService dd a:nth-child(1):hover{
+    background: url("../images/feature1_h.png")no-repeat;
+}*/
+.characteristicService dd a:nth-child(2){
+    background: url("../images/feature2_h.png")no-repeat;
+}
+/*.characteristicService dd a:nth-child(2):hover{
+    background: url("../images/feature2_h.png")no-repeat;
+}*/
+.characteristicService dd a:nth-child(3){
+    background: url("../images/feature3_h.png")no-repeat;
+}
+/*.characteristicService dd a:nth-child(3):hover{
+    background: url("../images/feature3_h.png")no-repeat;
+}*/
+.characteristicService dd a:nth-child(4){
+    background: url("../images/feature4_h.png")no-repeat;
+}
+/*.characteristicService dd a:nth-child(4):hover{
+    background: url("../images/feature4_h.png")no-repeat;
+}
+*/
+
+/*特色服务end*/

@@ -1,0 +1,157 @@
+/*针对左侧 显示隐藏*/
+.category .category-list {display:none;}
+.category:hover .category-list{display:block;}
+/*次一级导航*/
+.insurance-style{height:40px;line-height:40px;color: #8d96a1;padding-left:5px;}
+.insurance-style a{color:#70c16e;text-decoration:none;margin:0px 8px;}
+.insurance-style a:hover{color:#ff6f3c;text-decoration:none;}
+/*固定定位*/
+.fixed-outer{height:80px;line-height:80px;z-index:1000;background:#fff;width:100%;}
+.fixed-inner{height:80px;line-height: 80px;border-bottom:1px solid #ccc;}
+.fixed{height: 80px;line-height:80px;margin:0 auto;}
+.fixed-left{float:left;height:80px;line-height:80px;color: #5e5e5e;margin-left: 10px;width:490px;margin-right:95px;}
+.fixed-left span{font-size: 26px;}
+.fixed-left em{font-family: normal;font-size: 18px;color:#ff6f3c;margin-left: 15px;font-weight: bold}
+.fixed-left em span{font-size: 18px;color:#ff6f3c;}
+.fixed-right{float:left;position:relative;height: 80px;}
+.fixed-right ul li{float:left;cursor:pointer;color: #5e5e5e;font-size: 16px;margin-left:8px;}
+.green span{color: #40c16b;}
+.fixed-right a{display:block;width:160px;height:48px;line-height: 48px;text-align: center;position:absolute;
+	right:-178px;top:13px;color:#fff;background:#FF531A;font-size: 24px;border-radius: 5px;text-decoration: none}
+	/*产品特色 样式*/
+.produce-feature-high-outer{margin:20px 0px;}
+.produce-feature-high{width:100%;height:40px;line-height: 40px;text-align: center;font-size:30px;}
+.produce-feature-pic img{display:block;}
+/* 保障计划样式*/
+.ensure-plan-header{width:100%;height:20px;line-height:20px;font-size:20px;color: #5e5e5e;padding:50px;margin-bottom: 20px;
+	text-align:center;}
+.ensure-plan-body{height:344px;width:100%;}
+
+.ensure-plan-body li .ensure-plan-model1{width:340px;border:1px solid #e2e2e2;float:left;margin-right:75px;cursor:pointer;}
+.ensure-plan-model1-h{height:73px;line-height:63px;text-align:center;font-size: 26px;color:#fff;margin-bottom:35px;
+	font-weight: 600;background: url(../images/title_bg.png) no-repeat 0 0 ;}
+.ensure-plan-model1-b{width:290px;margin:0 auto;border-bottom:1px dashed #e2e2e2}
+.ensure-plan-up{font-size: 18px;color: #717171;font-weight: 600;line-height:45px;width:290px;height:45px;}
+.ensure-plan-up-l{float:left;}
+.ensure-plan-up-r{float:right;}
+.ensure-plan-m{font-size: 16px;color: #717171;line-height:45px;width:290px;height:45px;}
+.ensure-plan-m strong{float:left;height:45px;line-height: 45px;margin-right:10px;}
+.ensure-plan-down strong{float:left;height:45px;line-height: 45px;margin-right:10px;}
+.ensure-plan-m>span{height:45px;}
+.ensure-plan-down{font-size: 16px;color: #717171;line-height:45px;width:290px;height:45px;margin-bottom: 30px}
+.ensure-plan-up-l{float:left;}
+.ensure-plan-up-l>span {position:relative;width: 20px;height: 20px;margin: 13px 5px;
+	background:url(../images/za-pro-icon-zx.png) no-repeat -903px -113px;display:inline-block; }
+
+.zhuyi1{position:absolute;left:-200px;bottom:32px;width: 400px;color: rgb(102, 102, 102);line-height: 16px;font-size:12px;
+background-color: #fffdf5;border: 1px solid #ffe6c9;display:none;padding:10px 0px 10px 12px;z-index:1000;border-radius:5px;}
+.zhuyi1:after{ content:'';position:absolute;right:186px;top:112px;width:10px;height:10px;border-top:1px solid #ffe6c9;border-right:1px solid #ffe6c9;
+transform:rotate(135deg);background-color: #fffdf5;}
+
+.zhuyi2{position:absolute;left:-70px;bottom:25px;width: 150px;color: rgb(102, 102, 102);line-height: 16px;font-size:12px;
+background-color: #fffdf5;border: 1px solid #ffe6c9;display:none;padding:10px 0px 10px 12px;z-index:1000;border-radius:5px;}
+.zhuyi2:after{ content:'';position:absolute;right:66px;top:32px;width:10px;height:10px;border-top:1px solid #ffe6c9;border-right:1px solid #ffe6c9;
+transform:rotate(135deg);background-color: #fffdf5;}
+
+.ensure-plan-model1 .ensure-plan-m .ensure-plan-up-r{float:right;color:#40c16b;font-weight: 600;}
+.ensure-plan-model1 .ensure-plan-down .ensure-plan-up-r{float:right;color:#40c16b;font-weight: 600;}
+
+.ensure-plan-model1-t{position:relative;}
+.ensure-plan-model1-t p{width:100%;height:70px;margin-top:10px;text-align: center;line-height:70px;font-size:30px;}
+.ensure-plan-model1-t p>span{color:#40c16b;}
+.ensure-plan-body li .ensure-plan-model1-t>span{height:85px;width:85px;position:absolute;right:0;bottom:0px;background:none}
+
+.ensure-plan-body li .ensure-plan-model2{width:340px;border:1px solid #e2e2e2;float:left;margin-right:75px;	cursor:pointer;}
+.ensure-plan-model2-h{height:73px;line-height:63px;text-align:center;font-size: 26px;color:#fff;margin-bottom:35px;
+	font-weight: 600;background: url(../images/title_bg.png) no-repeat 0 -97px;}
+
+.ensure-plan-model2-b{width:290px;margin:0 auto;border-bottom:1px dashed #e2e2e2}
+.ensure-plan-up{font-size: 18px;color: #717171;font-weight: 600;line-height:45px;width:290px;height:45px;}
+.ensure-plan-up-l{float:left;}
+.ensure-plan-up-r{float:right;}
+
+.ensure-plan-m{font-size: 16px;color: #717171;line-height:45px;width:290px;height:45px;}
+.ensure-plan-down{font-size: 16px;color: #717171;line-height:45px;width:290px;height:45px;margin-bottom: 30px}
+
+.ensure-plan-model2 .ensure-plan-m .ensure-plan-up-r{float:right;color:#CC966A;font-weight: 600;}
+.ensure-plan-model2 .ensure-plan-down .ensure-plan-up-r{float:right;color:#CC966A;font-weight: 600;}
+.ensure-plan-model2-t{position:relative;}
+.ensure-plan-model2-t p{width:100%;height:70px;margin-top:10px;text-align: center;line-height:70px;font-size:30px;}
+.ensure-plan-model2-t p>span{color: #CC966A;}
+.ensure-plan-body li .ensure-plan-model2-t>span{height:85px;width:85px;position:absolute;right:0;bottom:0px;background:none}
+
+.ensure-plan-body li .ensure-plan-model3{width:340px;border:1px solid #e2e2e2;float:left;cursor:pointer;}
+.ensure-plan-model3-h{height:73px;line-height:63px;text-align:center;font-size: 26px;color:#fff;margin-bottom:35px;
+	font-weight: 600;background: url(../images/title_bg.png) no-repeat 0 -189px;}
+
+.ensure-plan-model3-b{width:290px;margin:0 auto;border-bottom:1px dashed #e2e2e2}
+.ensure-plan-up{font-size: 18px;color: #717171;font-weight: 600;line-height:45px;width:290px;height:45px;}
+.ensure-plan-up-l{float:left;}
+.ensure-plan-up-r{float:right;}
+
+.ensure-plan-m{font-size: 16px;color: #717171;line-height:45px;width:290px;height:45px;}
+.ensure-plan-down{font-size: 16px;color: #717171;line-height:45px;width:290px;height:45px;margin-bottom: 30px}
+
+.ensure-plan-model3 .ensure-plan-m .ensure-plan-up-r{float:right;color: #f57f69;font-weight: 600;}
+.ensure-plan-model3 .ensure-plan-down .ensure-plan-up-r{float:right;color: #f57f69;font-weight: 600;}
+.ensure-plan-model3-t{position:relative;}
+.ensure-plan-model3-t p{width:100%;height:70px;margin-top:10px;text-align: center;line-height:70px;font-size:30px;}
+.ensure-plan-model3-t p>span{color: #f57f69;}
+.ensure-plan-body li .ensure-plan-model3-t>span{height:85px;width:85px;position:absolute;right:0;bottom:0px;background:none}
+
+
+/*css3 动画 */
+.ensure-plan-model1:hover{border:1px solid #40c16b !important;}
+.ensure-plan-model1:hover .ensure-plan-model1-t>span{background:url(../images/za-pro-icon1.png) no-repeat -286px -496px;}
+
+.ensure-plan-model2:hover{border:1px solid #CC966A !important;}
+.ensure-plan-model2:hover .ensure-plan-model2-t>span{background:url(../images/za-pro-icon1.png) no-repeat -387px -496px;}
+
+.ensure-plan-model3:hover{border:1px solid #f57f69 !important;}
+.ensure-plan-model3:hover .ensure-plan-model3-t>span{background:url(../images/seled.png) no-repeat;}
+
+.ensure-plan-up-l>span:hover .zhuyi1{display:block ;}
+.ensure-plan-up-l>span:hover .zhuyi2{display:block ;}
+
+/*click*/
+ .ensure-plan-body .active .ensure-plan-model1 { border:1px solid #40c16b; }
+ .ensure-plan-body .active .ensure-plan-model1-t>span{background:url(../images/za-pro-icon1.png) no-repeat -286px -496px;}
+
+ .ensure-plan-body .active .ensure-plan-model2 { border:1px solid #CC966A; }
+ .ensure-plan-body .active .ensure-plan-model2-t>span{background:url(../images/za-pro-icon1.png) no-repeat -387px -496px;}
+
+ .ensure-plan-body .active .ensure-plan-model3{ border:1px solid #f57f69; }
+ .ensure-plan-body .active .ensure-plan-model3-t>span{background:url(../images/seled.png) no-repeat;}
+
+/* 底部 */
+.ensure-plan-footer{height:180px;width:100%;margin-bottom:50px;}
+.ensure-plan-footer-up{height:100px;margin-top:60px;position:relative;}
+.ensure-plan-footer-up>span{position:absolute;left:0px;top:0px;}
+.ensure-plan-footer-up p{height:54px;line-height: 54px;text-align:center;font-size:40px;color: #5e5e5e}
+.ensure-plan-footer-up p span{color: #40c16b;}
+.ensure-plan-footer>a{ width: 200px;height: 50px;line-height: 50px;font-size: 25px;display:block;margin: 29px auto 0;background-color: #ff6f3c;
+	color:#fff;text-decoration: none;text-align: center;border-radius:5px;}
+.ensure-plan-footer>a:hover{background: #FF531A;}
+
+/*理赔流程*/
+.flow{width:100%;background:#f2f2f2;padding:50px 0;overflow:hidden;margin-bottom:50px;}
+.flow-head{height:60px;width:100%;}
+.flow-head-up{height:30px;text-align:center;font-size: 30px;color:#888;line-height: 30px;}
+.flow-head-down{margin-top:15px;height:15px;line-height: 30px;text-align: center;color:#888;font-size: 14px;}
+.flow-body{clear:both;margin-top:50px;padding-bottom:50px;}
+.flow-body-l{float:left;width:430px;}
+.flow-body-l p{width: 430px;height: 94px;font-size: 20px;padding: 18px 0;margin: -2px 0;background: url(../images/za-pro-icon.png) no-repeat -230px 0;}
+.flow-body-l p .num{font-size: 30px;font-weight: 600;color: #40c16b;margin-left: 23px;position:relative;top:-10px;}
+.flow-body-l p .txt{margin-left:35px;position:relative;top:-13px;color: #888;}
+.flow-body-l p .art{margin-top: -10px;width: 330px;float: right;margin-right: 25px;color: #888;font-size: 18px;}
+.flow-body-r{float:left;width:375px;height:330px;background: url(../images/za-pro-icon.png) no-repeat -240px -140px;margin-left: 180px}
+/*常见问题*/
+.problem-title{height:30px;text-align:center;line-height: 30px;font-size:30px;margin-top: 40px;color: #888}
+.problems-body{font-size: 18px;color: #5e5e5e;}
+.problems-body .problem{line-height: 32px;color: #40c16b;}
+.problems-body .result{line-height: 32px;font-size: 16px;margin-bottom:30px;}
+
+/*返回顶部*/
+.toTop{width:40px;height:40px;background:url(../images/za-pro-icon.png) no-repeat -244px -520px;position:fixed;right:60px;bottom:50px;
+line-height: 32px;font-weight: 600;text-align: center;display:none;cursor:pointer;}
+

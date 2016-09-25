@@ -1,0 +1,26 @@
+body{background: url(../images/login-background.jpg) no-repeat center fixed ;color: rgba(255,255,255,.95)}
+.login{width:610px;margin:0 auto;background:#fff;padding:20px 30px 10px 30px;}
+.cus-row{width:284px;box-shadow: 0 3px 0 rgba(12,12,12,.03);background: rgba(255,255,255,.2)}
+.cus-row span{z-index:100;color:#000;}
+.cus-row h3{width:174px;height:30px;margin:30px auto 30px;background:url(../images/logo_min.png) no-repeat 0 0 ;}
+/*.login input{height:40px;}*/
+.form-group{margin-bottom: 25px;}
+.special{font-size:12px;color: #888}
+.green{color:#40C16B;}
+.special a:hover{text-decoration: none;color:#40C16B;cursor:pointer;}
+.large{font-size:14px;color: #888;margin-top:40px;}
+.large p{text-align: center }
+.large p span{color:#dcdcdc;margin:0 20px;}
+.large .color-g{text-align: center;color:#40C16B;}
+.large .color-g:hover{color:#40C16B;}
+.banquan{width:610px;margin:0 auto;font-size:16px;color: #444;text-align: center;margin-top: 50px}
+.banquan a{color: #444;}
+.other-login{margin-top: 20px}
+.other-login-title{height:30px;color: #888;text-align: center;}
+.other-login li{float:left;width:70px;height:40px;}
+.other-login li a{display:block;width:40px;height:40px;margin-left:10px;}
+.other-login li .wechat{background: url(../images/wechat_icon.png) no-repeat 0 0;}
+.other-login li .qq{background: url(../images/qq_icon.png) no-repeat 0 0;}
+.other-login li .alipay{background: url(../images/alipay_icon.png) no-repeat 0 0;}
+.form-control-feedback{left:0 !important;color: #b6b3b3 !important;}
+.cur-right{padding-left: 40px;}

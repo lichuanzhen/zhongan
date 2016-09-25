@@ -1,0 +1,46 @@
+/*----------------重置样式-----------*/
+/*公共部分代码*/
+*{margin:0; padding:0;}
+body{font-size:16px;font-family: "微软雅黑";}
+a{color:#a27777; text-decoration:none;}
+a:hover{text-decoration:none !important;}
+ul {list-style: none}
+
+header,section,footer{
+	width:1349px;
+}
+.areaAuto{
+	width:1200px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

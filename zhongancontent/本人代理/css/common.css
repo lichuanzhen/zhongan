@@ -1,0 +1,97 @@
+/*---------------------重用代码---------*/
+
+
+/*-----------------------居中---------*/
+.txtCenter{
+	text-align: center;
+}
+
+/*------------------------字体---------------*/
+.fontSize14{
+	font-size: 14px;
+}
+.fontSize18{
+	font-size: 18px;
+}
+.fontSize{
+	font-size: 45px;
+}
+/*-------------------------字体正常----------*/
+.fontweight{
+	font-weight:normal;
+}
+/*-------------------------图片去除bug--------*/
+.imgBlock{
+	display:block;
+}
+/*------------------------字体颜色-----------*/
+.color38{
+	color:#383838;
+}
+
+/*------------------------背景颜色-----------*/
+.bgcolorf3{
+	background-color:#f3f3f3;
+}
+/*-----------------------margin------------*/
+.marginTop15{
+	margin-top: 15px;
+}
+.marginTop40{
+	margin-top: 40px;
+}
+.marginTop60{
+	margin-top: 60px;
+}
+.marginTop80{
+	margin-top: 80px;
+}
+.marginTop100{
+	margin-top: 100px;
+}
+.marginLeft15{
+	margin-left: 15px;
+}
+.marginLeft255{
+	margin-left: 255px;
+}
+/*-----------------------padding-----------*/
+.paddingTop15{
+	padding-top: 15px;
+}
+.paddingTop25{
+	padding-top: 25px;
+}
+.paddingTop40{
+	padding-top: 40px;
+}
+/*-----------------------浮动--------------*/
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+.overFlow{
+	overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

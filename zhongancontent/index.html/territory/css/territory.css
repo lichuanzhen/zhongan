@@ -1,0 +1,276 @@
+/***************导航选项栏***************/
+.tabnav {
+	background: url(../images/territory-banner.png) no-repeat;
+	width:100%;
+	height:340px;
+	position: relative;
+}
+.tabnav>div {
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+	padding-top: 80px;
+	box-sizing: border-box;
+}
+.tabnav div ul {
+	margin-top: 30px;
+
+}
+.tabnav div li {
+	float:left;
+	width:25%;
+	height:142px;
+	display: inline-block;
+	
+}
+.tabnav div li a {
+	width:142px;
+	height:142px;
+	display: inline-block;
+	position: absolute;
+	left:-106px;
+	top:123px;
+	border-radius: 50%;
+	border:1px solid transparent;
+	transform: rotate(0deg);
+	opacity: 0;
+
+}
+@keyframes gotui {
+	from{left:-146px;transform: rotate(0deg);}
+	to{left:185px;transform: rotate(360deg);}
+}
+@keyframes gohang {
+	from{left:-146px;transform: rotate(0deg);}
+	to{left:440px;transform: rotate(360deg);}
+}
+@keyframes gochang {
+	from{left:-146px;transform: rotate(0deg);}
+	to{left:690px;transform: rotate(360deg);}
+}
+@keyframes gogong {
+	from{left:-146px;transform: rotate(0deg);}
+	to{left:940px;transform: rotate(360deg);}
+}
+@keyframes gotop {
+	0%{top:123px;}
+	50%{top:110px;}
+	100%{top:123px;}
+}
+@keyframes goshow {
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+
+.tabnav .tui { 
+	background: url(../images/territory-1.png) no-repeat -760px -102px;
+	animation: gotui 0.5s ease-in  2.0s forwards,gotop 0.3s ease-in 2.5s forwards,goshow 0.5s ease 2.1s forwards;
+}
+
+.tabnav .tui:hover {
+	border:1px solid #ff6166;
+}
+.tabnav .hang {
+	background: url(../images/territory-1.png) no-repeat -27px -102px;
+	animation: gohang 0.6s ease-in 1.4s forwards,gotop 0.3s ease-in 2.0s forwards,goshow 0.6s ease 1.6s forwards;
+}
+.tabnav .hang:hover {
+	border:1px solid #ffa200;
+}
+.tabnav .chang {
+	background: url(../images/territory-1.png) no-repeat -288px -102px;
+	animation: gochang 0.7s ease-in 0.7s forwards,gotop 0.3s ease-in 1.3s forwards,goshow 0.7s ease 0.9s forwards;
+}
+.tabnav .chang:hover {
+	border:1px solid #2391eb;
+}
+.tabnav .gong {
+	background: url(../images/territory-1.png) no-repeat -544px -102px;
+	animation: gogong 0.8s ease-in 0s forwards,gotop 0.3s ease-in 0.7s forwards,goshow 0.8s ease 0.2s forwards;
+	transform: rotate(360deg);
+	transition:transform 1s;
+}
+.tabnav .gong:hover {
+	border:1px solid #36d37e;
+}
+
+/*********************公共样式*******************/
+.public {
+	width:100%;
+}
+.public>div {
+	width:1000px;
+	margin:0 auto;
+}
+.titlestyle {
+	width:100%;
+}
+.titlestyle>h2 {
+	margin:50px auto 40px auto;
+	text-align: center;
+	color:#777d8c;
+	font-size: 22px;
+	width:162px;
+	background: url(../images/territory-1.png) no-repeat -32px -60px;
+}
+.titlestyle>a {
+	display: block;
+	margin:0 auto;
+	background-color:#2193f7;
+	width:130px;
+	height:31px;
+	line-height: 31px;
+	text-align: center;
+	border-radius: 3px;	
+	position: relative;
+}
+.titlestyle>a:hover {
+	background: #0879dd;
+}
+.titlestyle>a>img {
+	position: absolute;
+	left:26px;
+	top:13px;
+}
+/*详情公共样式*/
+.borbot100 {
+	width:100%;
+	padding-bottom: 100px;
+	border-bottom: 1px solid #eee;
+}
+.details{
+	overflow: hidden;
+	margin-top: 15px;
+	
+}
+.details li {
+	padding:20px 15px;
+	box-sizing: border-box;
+	width: 236px;
+	height:162px;
+    float: left;
+    background: #f2f2f2;
+    margin: 7px;
+    position: relative;
+}
+.details li i {
+	display: block;
+	width:44px;
+	height:37px;
+	margin:10px auto 20px auto;
+	background: url(../images/territory-1.png) no-repeat -736px -12px;
+}
+.details .lt {
+	background: url(../images/territory-1.png) no-repeat -317px -12px;
+}
+.details li h3 {
+	text-align: center;
+	margin-bottom: 15px;
+}
+.details li p {
+	font-size: 12px;
+	color:#767676;
+	text-align: center;
+	height:16px;
+	line-height: 16px;
+}
+.details li:hover span {
+	width: 236px;
+	height:162px;
+	position: absolute;
+	top:0;
+	left:0;
+	background:#ff6166;
+	opacity: 0.8;
+
+}
+.details li a {
+	position: absolute;
+	left:-99999px;
+}
+.details li:hover a {
+	display: block;
+	background: #fff;
+	color:#ff6166;
+	padding: 10px 32px;
+    position: absolute;
+    top: 72px;
+    left: 60px;
+    border-radius: 3px;
+}
+/************众推广栏**************/
+.ter-spread .details .wz {
+	background: url(../images/territory-1.png) no-repeat -625px -44px;
+}
+.ter-spread .details .yd {
+	background: url(../images/territory-1.png) no-repeat -684px -44px;
+}
+
+/************行业栏**************/
+.trade .trade-details li:hover a {
+	color:#fdae24;
+}
+.trade .trade-details li:hover span {
+	background: #fdae24;
+}
+.trade .trade-details .wl {
+	background: url(../images/territory-1.png) no-repeat -212px -12px;
+}
+.trade .trade-details .sm {
+	background: url(../images/territory-1.png) no-repeat -265px -12px;
+}
+.trade .trade-details .o2o {
+	background: url(../images/territory-1.png) no-repeat -27px -12px;
+}
+.trade .trade-details .sp {
+	background: url(../images/territory-1.png) no-repeat -91px -12px;
+}
+.trade .trade-details .yl {
+	background: url(../images/territory-1.png) no-repeat -152px -12px;
+}
+.trade .trade-details .ms {
+	background: url(../images/territory-1.png) no-repeat -904px -12px;
+}
+.trade .trade-details .hk {
+	background: url(../images/territory-1.png) no-repeat -439px -12px;
+}
+.trade .trade-details .js {
+	background: url(../images/territory-1.png) no-repeat -681px -12px;
+}
+
+/************产品栏**************/
+.product .product-details li:hover a {
+	color:#429fec;
+}
+.product .product-details li:hover span {
+	background:#429fec;
+}
+.product .product-details .tt {
+	background: url(../images/territory-1.png) no-repeat -622px -12px;
+}
+.product .product-details .bx {
+	background: url(../images/territory-1.png) no-repeat -625px -44px;
+}
+.product .product-details .yb {
+	background: url(../images/territory-1.png) no-repeat -741px -44px;
+}
+.product .product-details .lt {
+	background: url(../images/territory-1.png) no-repeat -798px -44px;
+}
+/************工具栏**************/
+.tool .tool-details li:hover a {
+	color:#52d78f;
+}
+.tool .tool-details li:hover span {
+	background:#52d78f;
+}
+.tool .tool-details .qy {
+	background: url(../images/territory-1.png) no-repeat -795px -12px;
+}
+.tool .tool-details .syt {
+	background: url(../images/territory-1.png) no-repeat -852px -12px;
+}
+.tool .tool-details .sw {
+	background: url(../images/territory-1.png) no-repeat -684px -44px;
+}

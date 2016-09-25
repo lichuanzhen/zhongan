@@ -1,0 +1,146 @@
+/*头部部分代码*/
+.header {width:1349px;overflow:hidden;}
+.header .container {width:1200px;margin:30px auto 80px auto;}
+.header .container>div {float:left; width:260px;margin-left:26px;}
+.header .container ul {float:left;margin-left:;}
+.header .container ul li{float:left;margin-right:30px;}
+.header .container ul li .on{color:#b5a8f1;}
+
+
+
+
+/*     底部部分       */
+.footer a {
+	color:#3E4654;
+}
+.footer a:hover {
+	color:#40c16b;
+}
+.footer {
+	width:100%;
+	background: #f3f4f5;
+}
+.footer .f-top {
+	width:1260px;
+	height:258px;
+	background: #f3f4f5;
+	padding:50px 30px;
+	box-sizing: border-box;
+	margin:0 auto;
+}
+.footer .f-top .ser {
+	width:199px;
+	height:157px;
+	float:left;
+	margin-right: 100px;
+}
+.footer .f-top dt {
+	color:#3E4654;
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+.footer .f-top .ser dd {
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 30px;
+	margin-bottom: 25px;
+}
+.footer .f-top .ser .tel {
+	width:100%;
+	height:24px;
+	font-size: 24px;
+	margin-bottom: 15px;
+	background: url(../images/footer_tel.png) no-repeat;
+}
+.footer .f-top .ser .tel:hover {
+	background: url(../images/footer_tel_h.png) no-repeat;
+}
+.footer .f-top .ser .mail {
+	background: url(../images/footer_mail.png) no-repeat;
+}
+.footer .f-top .ser .mail:hover {
+	background: url(../images/footer_mail_h.png) no-repeat;
+}
+.footer .f-top .about {
+	float:left;
+	width:494px;
+	height:154px;
+	margin-right: 130px;
+}
+.footer .f-top .about dd {
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.footer .f-top .about a {
+	margin-right: 80px;
+}
+.footer .f-top .about .op {
+	margin-left: 70px;
+}
+.footer .f-top .foll {
+	float:left;
+	width:237px;
+	height:158px;
+}
+.footer .f-top .foll span {
+	width: 111px;
+	height:112px;
+	display: inline-block;
+}
+.footer .f-top .foll .wechat {
+	background: url(../images/qr_wechat.png) no-repeat;
+}
+.footer .f-top .foll .wechat:hover {
+	background: url(../images/qr_wechat_h.png) no-repeat;
+}
+.footer .f-top .foll .alipay {
+	margin-left: 10px;
+	background: url(../images/qr_alipay.png) no-repeat;
+}
+.footer .f-top .foll .alipay:hover {
+	background: url(../images/qr_alipay_h.png) no-repeat;
+}
+.footer .f-bot {
+	position: relative;
+	height:39px;
+	color:#83969F;
+	line-height:39px;
+	background: #fff;
+	width:100%;
+}
+.footer .f-bot p {
+	display: inline-block;
+}
+.footer .f-bot a {
+	color:#83969F;
+}
+.footer .f-bot a:hover {
+	text-decoration: underline;
+	color:#83969F;
+}
+.footer .f-bot .f-bot-a {
+	width:1260px;
+	margin: 0 auto;
+	padding:10px 30px 30px 30px;
+	box-sizing: border-box;
+}
+.footer .f-bot span {
+	display:inline-block;
+	width:94px;
+	height:39px;
+	position: absolute;
+	background: url(../images/cright_busin.png) no-repeat;
+}
+
+
+
+
+
+/*返回顶部*/
+.toTop{display:none;width:40px;height:40px;cursor:pointer;background:url(../images/go-top.png) no-repeat; position:fixed;bottom:10px; right:15px;transition:all .3s ease-in-out;}
+.toTop:hover {background-position:0 -54px;}
+/*在线客服*/
+.custom-server{width:68px;height:146px;background:url(../images/cs_bg.png)no-repeat;position:fixed;right:10px;top:40%;}
+.custom-server i{width:15px;height:15px;background:url(../images/cs_close.png)no-repeat;position:absolute;right:0px;top:0;}
+

@@ -1,0 +1,162 @@
+/*---------团队代理分页---------*/
+/*-------------头部-------------*/
+.banner1{
+	width:1349px;
+	height:550px;
+}
+.banner1 img{
+	width:100%;
+	height:550px;
+}
+/*团队客户*/
+.area2>div{
+	position: relative;	
+
+}
+.area2>div .abs1{
+	position:absolute;
+	left:250px;top:23px;
+}
+.area2>div .abs2{
+	position:absolute;
+	right:250px;top:23px;
+}
+/*个人团队*/
+.bannerMan{
+	height:517px;
+	margin-top:-4px;
+}
+.posiRelative{
+	position: relative;	
+	height:380px;
+}
+.posiRelative .abs3{
+	position:absolute;
+	left:140px;top:80px;
+}
+.posiRelative .abs4{
+	position:absolute;
+	right:45px;top:40px;
+}
+/*我们得优势*/
+.bannerGood{
+	height:510px;
+}
+.bannerGood .goodUl li {
+	width:100%;
+}
+.bannerGood .goodUl li div{
+	width:50%;
+
+}
+.lis{
+	position: relative;
+}
+.q1 .Img1{
+	position:absolute;
+	left:80px;
+	top:30px;
+}
+.q1 .Img2{
+	position:absolute;
+	left:200px;
+	top:35px;
+	padding:0 100px 10px 0;
+	border-bottom: 1px solid #e8e8e8;
+}
+.q1 p{
+	width:270px;
+	text-align:left;
+	color:#666666;
+	padding-top:5px;
+	line-height: 24px;	
+	position: relative;
+}
+.q1 p:before{
+	content:"";
+	width:6px;
+	height:6px;
+	background-color: #d2d4d4;
+	position: absolute;
+	left:-20px;
+	top:19px;
+}
+.q1 .p1{
+	margin:80px 0 0 220px;
+}
+.q1 .p2{
+	margin-left:220px;
+}
+.Img3{
+	margin-top:30px ;
+}
+/*第二张图*/
+.q1 .Img4{
+	position:absolute;
+	right:135px;
+	top:35px;
+	padding:0 100px 10px 0;
+	border-bottom: 1px solid #e8e8e8;
+}
+.q1>div{
+	margin-left:140px;
+	margin-top:-50px;
+}
+/*最后张有误差，修该*/
+.q1 .Img5{
+	position:absolute;
+	right:180px;
+	top:35px;
+}
+/*二维码背景图*/
+.bgBanner{
+	width:1349px;
+	height:302px;
+	position: relative;
+}
+.bgarea{
+	width:100%;
+	height:302px;
+	background:url(../images/area6-bg.jpg)no-repeat;
+	position:absolute;
+	left:50%;	
+	top:0;
+	margin-left:-50%;
+}
+.bgarea h3{
+	color:#fff;
+	padding:59px 370px 0 0;
+	font-size:23px;
+}
+.bgarea p{
+	color:#fff;
+	padding:20px 0 0 425px;
+	font-size:13px;
+	margin-bottom:60px;
+}
+.bgarea a{
+	color:#438136;
+	padding:13px 43px;
+	font-size:21px;
+	background:#5cdd8c;
+	margin:20px 0 0 400px;
+	border-radius: 30px;
+}
+.bgarea img{
+	position:absolute;
+	left:50%;
+	bottom:60px;
+
+}
+.bgarea .weixin{
+	position:absolute;
+	left:18%;
+	bottom:-32px;
+}
+
+
+
+
+
+
+

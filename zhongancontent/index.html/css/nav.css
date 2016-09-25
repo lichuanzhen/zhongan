@@ -1,0 +1,133 @@
+
+/*一些公共属性*/
+*{margin:0; padding:0;}
+body{font-size:14px;font-family: "微软雅黑";}
+a{color:#414141; text-decoration:none ;}
+a:hover{text-decoration:none!important}
+ul {list-style: none}
+/*导航部分列表页 */
+.nav {width:100%;height:48px;background:#f7f9fb;}
+.nav-doc-w{width: 1200px;margin:0 auto;}
+/*导航左侧列表页*/
+.category {width:263px;height:48px;background-color: #40c16b;float:left;}
+.category .category-a{display:inline-block;width:243px;height:48px;line-height:48px;margin-left:20px;color:#fff;font-size:20px;}
+/*
+针对左侧 显示隐藏
+.category .category-list {display:none;}
+.category:hover .category-list{display:block;}*/
+.category .category-list {width:263px;background:#fff;position:relative;z-index:1000;}
+.category .category-list>li {overflow:hidden;width:263px;height:68px;padding:10px 0 10px 47px !important;border:1px solid #efefef; border-top:none;position:relative;}
+.category .category-list>li li{float:left;}
+.category .category-list>li li:hover a{color:#40c16b;font-size:15px;}
+.category .category-list>li ul{margin-top:6px;overflow: hidden}
+.category .category-list>li ul a{margin-right:10px;}
+.category .category-list .b-size {font-size: 18px;color:#40c16b;}
+.category .category-list .b1 i{width:13px;height:20px;background:url(../image/side_feature.png);position:absolute;top:25px;left:13px;}
+.category .category-list .b2 i{width:16px;height:21px;background:url(../image/side_traffic.png);position:absolute;top:25px;left:13px;}
+.category .category-list .b3 i{width:18px;height:18px;background:url(../image/side_tour.png);position:absolute;top:25px;left:13px;}
+.category .category-list .b4 i{width:21px;height:18px;background:url(../image/side_healthy.png);position:absolute;top:25px;left:13px;}
+.category .category-list .b5 i{width:21px;height:14px;background:url(../image/side_group.png);position:absolute;top:25px;left:13px;}
+
+/*导航右侧分类页*/
+.nav-list {float:left;}
+.nav-list .nav-list-ul {height:48px;}
+.nav-list .nav-list-ul>li {float:left;height:48px;line-height:48px; position: relative;z-index:100;}
+.nav-list .nav-list-ul>li>a {padding:0 27px;display:block;height:48px;line-height:48px;color:#8d96a1;font-size:18px;}
+.nav .nav-list .on{background-color: #3e4654 !important;color:#fff;}
+.nav .nav-list .nav-list-ul>li .on:hover{background-color:#3e4654;border:none;padding:0 27px;}
+.nav-list .nav-list-ul>li ul {position: absolute;top:48px;left:0px;border:1px solid #ecf0f4;border-top:none;}
+.nav-list .nav-list-ul>li ul a{color:#9699a2; margin-left:42px;}
+
+.nav-list .nav-list-ul>li ul li{ width:215px;background:#fff;}
+.nav-list .nav-list-ul>li ul li:hover{background-color:#40c16b;cursor:pointer;}
+.nav-list .nav-list-ul>li ul li:hover a{color:#fff; }
+
+.nav-list .nav-list-ul .on1{padding:0 26px;background:#fff; border-right:1px solid #ecf0f4;border-left:1px solid #ecf0f4;}
+.nav-list-ul>li ul {display:none;}
+/*旅行分类*/
+/*分类页 小图标*/
+/*特色 icon*/
+.nav-list-ul .list-icon1 {width:20px;height:14px;background: url(../image/car_g.png);position:absolute;top:18px;left:14px;}
+.nav-list-ul>li li:hover .list-icon1{background:url(../image/car_w.png);position:absolute;top:18px;left:14px;z-index:5;}
+.nav-list-ul .list-icon2{width:20px;height:14px;background: url(../image/pro_pay_g.png);position:absolute;top:65px;left:14px;}
+.nav-list-ul>li li:hover .list-icon2{background:url(../image/pro_pay_w.png);position:absolute;top:65px;left:14px;z-index:5;}
+.nav-list-ul .list-icon3{width:20px;height:20px;background: url(../image/pro_uav_g.png);position:absolute;top:110px;left:14px;}
+.nav-list-ul>li li:hover .list-icon3{background:url(../image/pro_uav_w.png);position:absolute;top:110px;left:14px;z-index:5;}
+.nav-list-ul .list-icon4{width:19px;height:21px;background: url(../image/wheel_green.png);position:absolute;top:157px;left:14px;}
+.nav-list-ul>li li:hover .list-icon4{background:url(../image/wheel_white.png);position:absolute;top:157px;left:14px;z-index:5;}
+.nav-list-ul .list-icon5{width:14px;height:21px;background: url(../image/mi_green.png);position:absolute;top:204px;left:14px;}
+.nav-list-ul>li li:hover .list-icon5{width:14px;height:21px;background:url(../image/mi_green_w.png);position:absolute;top:204px;left:14px;z-index:5;}
+.nav-list .nav-list-ul .list-icon6{width:16px;height:12px;background: url(../image/law_icon.png) -56px -34px;position:absolute;top:258px;left:14px;z-index:5;}
+.nav-list .nav-list-ul>li li:hover .list-icon6{background:url(../image/law_icon.png)no-repeat -102px -34px;position:absolute;top:258px;left:14px;z-index:5;}
+/*旅游 icon*/
+.nav-list .nav-list-ul .w-lv li{width:205px;}
+.nav-list-ul .list-lv-icon1 {width:18px;height:16px;background: url(../image/pro_family_g.png);position:absolute;top:17px;left:17px;}
+.nav-list-ul>li li:hover .list-lv-icon1{background:url(../image/pro_family_w.png);position:absolute;top:17px;left:17px;z-index:5;}
+.nav-list-ul .list-lv-icon2{width:14px;height:15px;background: url(../image/pro_pal_g.png);position:absolute;top:64px;left:21px;}
+.nav-list-ul>li li:hover .list-lv-icon2{background:url(../image/pro_pal_w.png);position:absolute;top:64px;left:21px;z-index:5;}
+/*意外 icon*/
+.nav-list .nav-list-ul .w-yi li{width:170px;}
+.nav-list-ul .list-yi-icon1 {width:20px;height:14px;background: url(../image/pro_plane_g.png);position:absolute;top:18px;left:17px;}
+.nav-list-ul>li li:hover .list-yi-icon1{background:url(../image/pro_plane_w.png);position:absolute;top:18px;left:17px;z-index:5;}
+.nav-list-ul .list-yi-icon2{width:14px;height:15px;background: url(../image/pro_traffic_g.png);position:absolute;top:64px;left:21px;}
+.nav-list-ul>li li:hover .list-yi-icon2{background:url(../image/pro_traffic_w.png);position:absolute;top:64px;left:21px;z-index:5;}
+.nav-list-ul .list-yi-icon3{width:21px;height:15px;background: url(../image/pro_place_g.png);position:absolute;top:113px;left:15px;}
+.nav-list-ul>li li:hover .list-yi-icon3{background:url(../image/pro_place_w.png);position:absolute;top:113px;left:15px;z-index:5;}
+.nav-list-ul .list-yi-icon4{width:20px;height:21px;background: url(../image/pro_tra_cars.png);position:absolute;top:157px;left:18px;}
+.nav-list-ul>li li:hover .list-yi-icon4{background:url(../image/pro_tra_cars_h.png);position:absolute;top:157px;left:18px;z-index:5;}
+/*健康 icon*/
+.nav-list .nav-list-ul .w-jian li{width:195px;}
+.nav-list-ul .list-jian-icon1 {width:16px;height:16px;background: url(../image/hospital_g.png);position:absolute;top:16px;left:19px;}
+.nav-list-ul>li li:hover .list-jian-icon1{background:url(../image/hospital_white.png);position:absolute;top:16px;left:19px;z-index:5;}
+.nav-list-ul .list-jian-icon2{width:15px;height:16px;background: url(../image/pro_man_g.png);position:absolute;top:64px;left:20px;}
+.nav-list-ul>li li:hover .list-jian-icon2{background:url(../image/pro_man_w.png);position:absolute;top:64px;left:20px;z-index:5;}
+.nav-list-ul .list-jian-icon3{width:14px;height:16px;background: url(../image/pro_woman_g.png);position:absolute;top:111px;left:22px;}
+.nav-list-ul>li li:hover .list-jian-icon3{background:url(../image/pro_woman_w.png);position:absolute;top:111px;left:22px;z-index:5;}
+.nav-list-ul .list-jian-icon4{width:16px;height:16px;background: url(../image/pro_young_g.png);position:absolute;top:161px;left:20px;}
+.nav-list-ul>li li:hover .list-jian-icon4{background:url(../image/pro_young_w.png);position:absolute;top:161px;left:20px;z-index:5;}
+.nav-list-ul .list-jian-icon5{width:14px;height:20px;background: url(../image/pro_too_g.png);position:absolute;top:204px;left:22px;}
+.nav-list-ul>li li:hover .list-jian-icon5{width:14px;height:20px;background:url(../image/pro_too_w.png);position:absolute;top:204px;left:22px;z-index:5;}
+.nav-list-ul .list-jian-icon6{width:22px;height:22px;background: url(../image/pro_pregnant_default.png) ;position:absolute;top:251px;left:17px;z-index:5;}
+.nav-list-ul>li li:hover .list-jian-icon6{background:url(../image/pro_pregnant_hover.png);position:absolute;top:251px;left:17px;z-index:5;}
+/*团体 icon*/
+.nav-list .nav-list-ul .w-100 li{width:180px;}
+.nav-list-ul .list-tuan-icon1 {width:16px;height:16px;background: url(../image/group.png)no-repeat 0 -164px;position:absolute;top:16px;left:19px;}
+.nav-list-ul>li li:hover .list-tuan-icon1{background:url(../image/group.png)no-repeat 0 -139px;position:absolute;top:16px;left:19px;z-index:5;}
+.nav-list-ul .list-tuan-icon2{width:16px;height:15px;background: url(../image/group.png)no-repeat 0 -239px;position:absolute;top:64px;left:20px;}
+.nav-list-ul>li li:hover .list-tuan-icon2{background:url(../image/group.png)no-repeat 0 -203px;position:absolute;top:64px;left:20px;z-index:5;}
+.nav-list-ul .list-tuan-icon3{width:16px;height:16px;background: url(../image/group.png)no-repeat 0 -25px;position:absolute;top:111px;left:22px;}
+.nav-list-ul>li li:hover .list-tuan-icon3{background:url(../image/group.png)no-repeat 0 0px;position:absolute;top:111px;left:22px;z-index:5;}
+.nav-list-ul .list-tuan-icon4{width:16px;height:16px;background: url(../image/group.png)no-repeat 0 -101px;position:absolute;top:159px;left:22px;}
+.nav-list-ul>li li:hover .list-tuan-icon4{background:url(../image/group.png)no-repeat 0 -63pxpx;position:absolute;top:159px;left:22px;z-index:5;}
+/*保险 icon*/
+.nav-list .nav-list-ul .w-bao li{width:130px;}
+.nav-list .nav-list-ul .w-bao li a{margin-left:42px;}
+.nav-list-ul .list-bao-icon1 {width:13px;height:13px;background: url(../image/icon_spirt.png)no-repeat -26px -180px;position:absolute;top:18px;left:19px;}
+.nav-list-ul>li li:hover .list-bao-icon1{background:url(../image/icon_spirt.png)no-repeat -50px -180px;position:absolute;top:18px;left:19px;z-index:5;}
+.nav-list-ul .list-bao-icon2{width:13px;height:13px;background: url(../image/icon_spirt.png)no-repeat -26px -205px;position:absolute;top:66px;left:20px;}
+.nav-list-ul>li li:hover .list-bao-icon2{background:url(../image/icon_spirt.png)no-repeat -50px -205px;position:absolute;top:66px;left:20px;z-index:5;}
+.nav-list-ul .list-bao-icon3{width:16px;height:16px;background: url(../image/icon_spirt.png)no-repeat -26px -231px;position:absolute;top:113px;left:22px;}
+.nav-list-ul>li li:hover .list-bao-icon3{background:url(../image/icon_spirt.png)no-repeat -50px -231px;position:absolute;top:113px;left:22px;z-index:5;}
+.nav-list-ul .list-bao-icon4{width:16px;height:16px;background: url(../image/icon_spirt.png)no-repeat -26px -257px;position:absolute;top:161px;left:22px;}
+.nav-list-ul>li li:hover .list-bao-icon4{background:url(../image/icon_spirt.png)no-repeat -50px -257px;position:absolute;top:161px;left:22px;z-index:5;}
+.nav-list-ul .list-bao-icon5{width:16px;height:16px;background: url(../image/icon_spirt.png)no-repeat -26px -283px;position:absolute;top:209px;left:22px;}
+.nav-list-ul>li li:hover .list-bao-icon5{background:url(../image/icon_spirt.png)no-repeat -50px -283px;position:absolute;top:209px;left:22px;z-index:5;}
+/*公开信息 icon*/
+.nav-list .nav-list-ul .w-kai li{width:185px;}
+.nav-list-ul .list-kai-icon1 {width:14px;height:14px;background: url(../image/icon_info_g.png)no-repeat;position:absolute;top:18px;left:19px;}
+.nav-list-ul>li li:hover .list-kai-icon1{background:url(../image/icon_info_w.png)no-repeat;position:absolute;top:18px;left:19px;z-index:5;}
+.nav-list-ul .list-kai-icon2{width:14px;height:14px;background: url(../image/icon_info_g.png)no-repeat;position:absolute;top:66px;left:20px;}
+.nav-list-ul>li li:hover .list-kai-icon2{background:url(../image/icon_info_w.png)no-repeat;position:absolute;top:66px;left:20px;z-index:5;}
+
+
+
+
+
+
+
+
+
+
+
+
+

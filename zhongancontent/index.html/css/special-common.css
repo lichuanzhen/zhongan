@@ -1,0 +1,171 @@
+*{margin:0;padding:0;}
+ol,ul{list-style: none}
+/*conmon样式*/
+.special-common{width:420px;float:left;margin-left: 7%;}
+.special-title{
+	width:420px;
+	height:72px;
+	background:url(../images/special_title.png) no-repeat 0 0 ;
+	position:relative;
+
+}
+.special-title span{
+	color:#fff;
+	font-size:19px;
+	position:absolute;
+	left:100px;
+	top:30px;
+}
+.special-title a{
+	color:#ff9b18;
+	position:absolute;
+	right:0px;
+	bottom:15px;
+	text-decoration:none;
+}
+.special-title a:hover{text-decoration:none;
+	color:#ff9b18;
+}
+.special-body{
+	padding:10px 10px 15px;
+	margin-left:28px;
+	background: #fff;
+	box-shadow: 1px 1px 3px 1px #999;
+	cursor:pointer;
+	position:relative;
+}
+
+.price{
+	color: #f32e2e;
+	font-size:30px;
+	height:45px;
+	line-height: 45px;
+	text-align: center;
+	margin-top:10px;
+}
+.btn{
+	width:149px;
+	height:49px;
+	background:url(../images/special_btn.png) no-repeat 0 0;
+	position:absolute;
+	bottom:15px;
+	right:-20px;
+}
+.btn a{
+	color:#fff;
+	text-decoration:none;
+	font-size: 20px;
+	line-height:50px;
+	margin:0 0 0 28px;
+
+}
+.special-title a:hover{text-decoration:none;
+	color:#fff;
+	text-decoration:none;
+}
+/*list*/
+.list{
+	width:1180px;
+	margin:70px auto 0;
+	overflow: hidden;
+}
+/*pic-list*/
+.pic-list{
+
+	/*width:1108px;*/
+	background: #fff7d0;
+	overflow: hidden;
+	padding:20px 0 50px 0;
+	margin: 0 36px 25px 36px;
+	border: 10px solid #fff3b9;
+	border-radius: 10px;
+}
+/*bank*/
+.bank{width:36px;
+	height:36px;
+	background:url(../images/special_icon1.png) no-repeat 0 0;
+	position:absolute;
+	left:60px;
+	top:20px;
+}
+.coverage{
+	width:160px;
+	height:160px;
+	background:url(../images/yyb_seal50.png) no-repeat 0 0;
+	position: absolute;
+	left:25px;
+	bottom:-40px;	
+}
+/*person*/
+.person{width:36px;
+	height:36px;
+	background:url(../images/special_icon5.png) no-repeat 0 0;
+	position:absolute;
+	left:60px;
+	top:20px;
+}
+.person-coverage{
+	width:160px;
+	height:160px;
+	background:url(../images/special_seal1.png) no-repeat 0 0;
+	position: absolute;
+	left:25px;
+	bottom:-40px;	
+}
+/*phone*/
+.phone{width:36px;
+	height:36px;
+	background:url(../images/special_icon7.png) no-repeat 0 0;
+	position:absolute;
+	left:60px;
+	top:20px;
+}
+.partner-work{
+	width:90px;
+	height:38px;
+	background:url(../images/special_tag.png) no-repeat 0 0;
+	position: absolute;
+	left:25px;
+	bottom:20px;	
+}
+
+/*轮胎 tyre*/
+.tyre{width:36px;
+	height:36px;
+	background:url(../images/special_icon6.png) no-repeat 0 0;
+	position:absolute;
+	left:60px;
+	top:20px;
+}
+/*飞行器*/
+.fly{width:36px;
+	height:36px;
+	background:url(../images/special_icon3.png) no-repeat 0 0;
+	position:absolute;
+	left:60px;
+	top:20px;
+}
+.fly-coverage{
+	width:160px;
+	height:160px;
+	background:url(../images/special_seal150.png) no-repeat 0 0;
+	position: absolute;
+	left:25px;
+	bottom:-40px;	
+}
+/*车*/
+.car{width:36px;
+	height:36px;
+	background:url(../images/special_icon_car.png) no-repeat 0 0;
+	position:absolute;
+	left:60px;
+	top:20px;
+}
+.car-coverage{
+	width:160px;
+	height:160px;
+	background:url(../images/seal-car.png) no-repeat 0 0;
+	position: absolute;
+	left:25px;
+	bottom:-40px;	
+}

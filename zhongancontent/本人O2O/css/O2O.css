@@ -1,0 +1,104 @@
+/*公共部分代码*/
+*{margin:0; padding:0;}
+body{font-size:16px;font-family: "微软雅黑";}
+a{color:#a27777; text-decoration:none;}
+a:hover{text-decoration:none !important;}
+ul {list-style: none}
+/*头部部分代码*/
+.header {width:1349px;overflow:hidden;}
+.header .container {width:1200px;margin:30px auto 80px auto;}
+.header .container>div {float:left; width:260px;margin-left:26px;}
+.header .container ul {float:left;margin-left:;}
+.header .container ul li{float:left;margin-right:30px;}
+.header .container ul li .on{color:#b5a8f1;}
+/*主体内容部分*/
+.banner1 {width:1349px;height:550px;position:relative;}
+.area1 {width:1654px;height:550px;background:url(../images/banner.jpg) no-repeat;position:absolute;top:0;left:50%;margin-left:-980px;}
+.area1 img{position:absolute;top:160px;left:39%;}
+
+/*tab */
+.banner2 {width:1349px;background-color:#f8f8f8;}
+.area2 {width:100%;}
+.area2 span{display:block;font-size:30px;color:#3e3838;text-align: center;margin-bottom:25px;padding-top:50px;}
+.area2 p {font-size:14px;color:#3e3838;text-align: center;padding-bottom:25px;}
+.area2 .section {overflow:hidden;margin-left:290px;}
+.area2 .section li{float:left; background:#ecebeb;padding:13px 60px;margin:0 5px;border-radius:5px;}
+.area2 .section .on {background-color:#3199f4;}
+.area2 .section .on a{color:#fff;}
+.area2 .section li a{color:#000;}
+/*50元代驾*/
+.area{width:1349px;}
+.section3{margin:50px 0 0 390px;overflow:hidden;cursor:pointer;}
+.section3 li {float:left;font-size:19px;padding:11px 60px;border:1px solid #969696;margin-right:-1px;}
+.section3 li:nth-child(1){border-top-left-radius:3px;border-bottom-left-radius:3px;}
+.section3 li:nth-child(3){border-top-right-radius:3px;border-bottom-right-radius:3px;}
+.section3 .on2{background:#969696;}
+.section3 .on2 a{color:#fff;}
+.section3 li a{color:#3c3c3c;}
+/*50,90,150,元套餐*/
+.tac{margin:40px 0 0 555px;height:50px;}
+.tac p {font-size:22px;position:absolute;display:none;}
+.tac .out {display:block;}
+/*内容 图片*/
+.pic {width:1349px;}
+.pic .pic-list1{overflow:hidden;margin:6px 0 0 70px;} 
+.pic .move{overflow:hidden;margin:6px 0 0 180px;}
+.pic .pic-list1 li {float:left;width:200px;height:250px;border:1px solid #dedede;margin:0 20px;position:relative;}
+.pic .pic-list1 li img{width:108px;height:108px;position:absolute;top:28px;left:15px;border-bottom:1px solid #f3f3f3;padding:0 15px 25px 22px;}
+.pic .pic-list1 li p {font-size:13px;text-align: center;margin:180px 0 10px 0;color:#5c5c5c;}
+.pic .pic-list1 li span {display:block;font-size:13px;text-align:center;font-style:normal;color:#000;} 
+
+
+.pic .pic-list1 li i{width:24px;height:24px;background:url(../images/hook1.png)no-repeat;position:absolute;top:8px;right:12px;}
+.pic .pic-list1 li .b3{width:24px;height:24px;background:url(../images/hook1.png)no-repeat;position:absolute;top:8px;right:12px;}
+.pic .pic-list1 li .b4{width:24px;height:24px;background:url(../images/hook1.png)no-repeat;position:absolute;top:8px;right:12px;}
+.pic .pic-list1 li .b5{width:24px;height:24px;background:url(../images/hook1.png)no-repeat;position:absolute;top:8px;right:12px;}
+/*li 变成透明*/
+.pic .pic-list1 .box-opacity{width:100%;height:100%;background-color:#fff;opacity:0.6;position:absolute;top:0;left:0;}
+/*轮播四波 图片*/
+#pic1 ul{display:none;}
+#pic1 .on4{display:block;}
+
+/*合作流程*/
+.graybg {width:100%;height:420px;background: #f8f8f8;margin-top:65px;}
+.graybg p {font-size:42px;margin-left:43%;padding-top:80px;color:#383838;}
+.graybg img {margin:66px 0 0 270px;}
+.graybg ul {list-style: none;position: relative;margin-left:21%;}
+.graybg li {float:left;font-size:17px;color:#383838;margin:20px 160px 0 0;}
+
+/*我们得优势*/
+.myAdvantage {margin-top:60px;cursor:pointer;}
+.myAdvantage h2{font-size:41px;font-weight:normal;color:#383838;margin:0 0 0 42%;}
+.myAdvantage ul {margin-top:30px;overflow:hidden;}
+.myAdvantage>ul>li {float:left;margin:0px -47px 0 85px;position: relative;border:1px solid #ccc;padding:1px;}
+.myAdvantage li .active>span {display:block;width:550px;height:420px;background:#000;opacity:.6;margin:-424px 0 0 0;}
+.myAdvantage .Img{position:absolute;top:34%;left:37%;}
+
+.active {overflow:hidden;}
+.active .b1{width:550px;height:420px;transition:transform .7s}
+.myAdvantage>ul>li:hover .b1{transform:scale(1.2) rotate(10deg);}
+/*隐藏内容*/
+.in{position:absolute;left:0;top:0;}
+.in h3{font-size:34px;font-weight:normal;color:#5cdd8c;text-align: center;margin:90px 0 0 20px;}
+.in>ul>li{color:#fff;font-size:14px;margin:30px 0 0 65px;}
+.in>ul>li>span {display:inline-block;width:7px;height:7px;border-radius: 50%;background-color: #5cdd8c;margin-right:6px;}
+.myAdvantage>ul>li .on{display:none;}
+.blue h3{color:#3894dd;}
+.blue>ul>li>span {background-color:#3894dd;}
+/*底部 微信二维码*/
+.foot{width:1349px;background:#3f4952;margin-top:70px;padding:50px 0;overflow:hidden;position:relative;}
+.foot .content .f1{display:block;margin-left:350px;float:left;}
+.foot .content .f2{display:block;padding:30px 0 0 100px;}
+.foot .content .f3{position:absolute;top:26%;right:28%;}
+.foot .content .f3 span{display:inline-block;color:#fff;font-size:26px;margin-bottom:4px;}
+.foot .content .f3 p{color:#fff;font-size:19px;}
+.foot .content .f3 a{display:inline-block;color:#157036;font-size:19px;padding:15px 50px;background:#55de89;border-radius:50px;margin-top:25px;}
+/*返回顶部*/
+.toTop{display:none;width:40px;height:40px;cursor:pointer;background:url(../images/go-top.png) no-repeat; position:fixed;bottom:10px; right:15px;transition:all .3s ease-in-out;}
+.toTop:hover {background-position:0 -54px;}
+/*在线客服*/
+.custom-server{width:68px;height:146px;background:url(../images/cs_bg.png)no-repeat;position:fixed;right:10px;top:40%;}
+.custom-server i{width:15px;height:15px;background:url(../images/cs_close.png)no-repeat;position:absolute;right:0px;top:0;}
+
+
+

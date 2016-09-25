@@ -1,0 +1,25 @@
+/*针对左侧 显示隐藏*/
+.category .category-list {display:none;}
+.category:hover .category-list{display:block;}
+ /*xiaomi  title*/
+ .xiaomi-title{height:60px;line-height:60px;margin:10px auto 10px;color:#999;font-size:20px;border-bottom:1px solid #CCC;}
+ .xiaomi-title .friend{width:43px;height:16px;margin-left:10px;border:1px solid red;display:inline-block;position:relative;top:5px;}
+
+ /*content*/
+
+ .xiaomi-content-title{height:77px;line-height: 77px;position:relative;}
+ .xiaomiwang{position:absolute;left:3px;top:18px;width:102px;height:51px;background:url(../images/icon.png) no-repeat -10px -101px ;}
+ .content-text{width:100%;height:77px;line-height: 77px;text-align:center;color:#000;font-size: 30px}
+ .content-pic{width:100%;}
+ .content{position:relative;}
+ .content-left{width:745px;height: 327px;margin-top: 48px;background: url(../images/milist.jpg)no-repeat 0 0 ;position:relative;}
+ .item1{position:absolute;top:130px;left:30px;}
+ .item2{position:absolute;top:300px;left:30px;}
+ .content-left p span{margin-right: 147px;color: #717171;width: 100px;}
+ .content-right{width:400px;height:359px;background:url(../images/xmibg.jpg) no-repeat 0 0 ;position: absolute;right:0px;top:-30px;} 
+ .xiaomi-btn{width:100%;margin-top:100px;margin-bottom:80px;position:relative;height:70px;}
+ .xiaomi-btn>div{position:absolute;left:380px;}
+ .xiaomi-btn .btn{display:inline-block;width:300px;height:70px;line-height: 57px;text-align: center;margin: 0 auto;color:#fff;font-size:26px;
+ 	border-radius:5px;background:#40c16b;}
+ .xiaomi-btn .express{display:inline-block;width:300px;height:70px;line-height: 70px;text-align: center;color: #40c16b;
+    font-size: 20px;margin-left: 40px;}
